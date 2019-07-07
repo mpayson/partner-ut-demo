@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/partner-ut-demo/static/css/main.385709af.chunk.css",
+    "main.js": "/partner-ut-demo/static/js/main.695bd8b3.chunk.js",
+    "main.js.map": "/partner-ut-demo/static/js/main.695bd8b3.chunk.js.map",
+    "runtime~main.js": "/partner-ut-demo/static/js/runtime~main.bd4d9529.js",
+    "runtime~main.js.map": "/partner-ut-demo/static/js/runtime~main.bd4d9529.js.map",
+    "static/js/2.8fc3a622.chunk.js": "/partner-ut-demo/static/js/2.8fc3a622.chunk.js",
+    "static/js/2.8fc3a622.chunk.js.map": "/partner-ut-demo/static/js/2.8fc3a622.chunk.js.map",
+    "index.html": "/partner-ut-demo/index.html",
+    "precache-manifest.16b0fc52a924176000387dace1d6b5a7.js": "/partner-ut-demo/precache-manifest.16b0fc52a924176000387dace1d6b5a7.js",
+    "service-worker.js": "/partner-ut-demo/service-worker.js",
+    "static/css/main.385709af.chunk.css.map": "/partner-ut-demo/static/css/main.385709af.chunk.css.map",
+    "static/media/logo.svg": "/partner-ut-demo/static/media/logo.22dcb7aa.svg"
+  }
+}

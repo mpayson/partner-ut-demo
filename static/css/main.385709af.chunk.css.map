@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.css"],"names":[],"mappings":"AAAA,UAGE,QACF,CACA,gBAJE,UAAW,CACX,WAMF,CAEA,uCACE,gBACF","file":"main.385709af.chunk.css","sourcesContent":["html, body {\n  width: 100%;\n  height: 100%;\n  margin: 0;\n}\n#root{\n  width: 100%;\n  height: 100%;\n}\n\n.esri-editor .esri-item-list__scroller {\n  max-height: 350px;\n}"]}
