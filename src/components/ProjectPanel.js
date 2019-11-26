@@ -86,6 +86,9 @@ class ProjectPanel extends PureComponent {
     }
     this.portal.queryItems(queryParams)
       .then(res => {
+
+        // probably shouldn't store metdata in a tag? Could do it through appInfo
+        // in webmap or other, this was mostly to test the tags API
         let nextState = res.results.reduce((acc, p) => {
           const tag = p.tags.find(t => t.includes('__nfeatures:'));
           if(!tag) return acc;

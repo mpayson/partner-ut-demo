@@ -120,6 +120,12 @@ class ChartView extends Component{
     }
   }
 
+  componentDidMount(){
+    if(!this.props.project) return;
+    this._updateTimeSeriesDataset(this.props.project.url);
+    this._updateUserDataset(this.props.project.url);
+  }
+
   render(){
     return (
       <div>

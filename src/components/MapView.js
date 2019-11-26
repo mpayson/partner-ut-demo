@@ -172,21 +172,24 @@ class MapView extends Component {
   
   render() {
 
-    const chartVisible = this.props.project && !this.props.isEditor ? '' : 'none';
-    let chart = <div
-      style={{
-        display: chartVisible,
-        position: "absolute",
-        top: "80px",
-        right: "15px",
-        width: "280px",
-        height: "380px",
-        padding: "10px",
-        background: "white",
-        boxShadow: "0 1px 2px rgba(0, 0, 0, 0.3)"
-      }}>
-      <ChartView project={this.props.project} token={this.props.token}/>
-    </div>
+    // don't render the chart if not an editor
+    let chart = this.props.project && !this.props.isEditor
+      ? (
+        <div
+          style={{
+            position: "absolute",
+            top: "80px",
+            right: "15px",
+            width: "280px",
+            height: "380px",
+            padding: "10px",
+            background: "white",
+            boxShadow: "0 1px 2px rgba(0, 0, 0, 0.3)"
+          }}>
+          <ChartView project={this.props.project} token={this.props.token}/>
+        </div>
+      )
+      : null;
 
 
     return (
