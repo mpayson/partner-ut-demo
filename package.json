@@ -7,7 +7,7 @@
     "@esri/arcgis-rest-request": "^2.1.0",
     "calcite-react": "^0.37.0",
     "calcite-ui-icons-react": "^0.6.0",
-    "chart.js": "^2.8.0",
+    "chart.js": "^2.9.4",
     "esri-loader": "^2.9.2",
     "react": "^16.8.6",
     "react-chartjs-2": "^2.7.6",
